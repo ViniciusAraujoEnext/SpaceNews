@@ -69,3 +69,15 @@ main{
 	font-family: sans-serif;
 	text-align: center;
 }
+.itens{
+	width: 25%;
+	height: 30%;
+	float: left;
+	position: relative;
+	padding-left: 15px;
+	padding-right: 45px;
+	padding-top: 35px;
+}
+.itenslogo{
+	margin-left: 18%;
+}
