@@ -8,7 +8,47 @@ body{
 	height: 100%
 	width: 100%;
 }
+main{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
 .header-1{
 	background-color: #523468;
-	height: 70px;
+	height: 60px;
+}
+.menu-principal{
+	width: 100%
+}
+.logo{
+	padding: 10px;
+	margin-left: 35px;
+	width: 15%;
+	float: left;
+}
+.botoes ul li{
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin-left: 60px;
+	margin-top: 8px;
+	text-align: center;
+	color: white;
+}
+.botoes{
+	width: 65%;
+	float: right;
+}
+.botoes ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.botoes ul li a:hover{
+	color: #429ded;
+	border-bottom: 3px solid #429ded;
+}
+.botoes ul li:hover{
+	border-bottom: 3px solid #429ded;
 }
