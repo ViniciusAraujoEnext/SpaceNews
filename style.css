@@ -52,3 +52,18 @@ main{
 .botoes ul li:hover{
 	border-bottom: 3px solid #429ded;
 }
+.banner{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.imagembanner{
+	width: ;
+	height: 300px;
+}
+.divisoria{
+	background-color: #523468;
+	height: 190px;
+}
+.textoimg{
+	
+}
