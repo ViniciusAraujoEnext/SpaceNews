@@ -91,3 +91,17 @@ footer{
 	height: 50px;
 	background-color: black;
 }
+.galeria{
+	width: 25%;
+	height: 30%;
+	float: left;
+	position: relative;
+	border-style: double;
+	color: #232b94;
+	border-width: 10px 10px 10px 10px;
+	border-color: black;
+	text-align: center;
+}
+.galeria1{
+	margin-left: 18%;
+}
