@@ -162,14 +162,28 @@ footer{
 	border-radius: 15px;
 	margin: 5px;
 }
-.imagembanner{
-	height: 300px;
-	margin-top: 0px;
 
-}
 .botoes{
-	width: 35%;
+	width: 75%;
 	float: right;
 }
-
+.logo{
+	margin-left: -100px;
+	padding: 100px;
+}
+}
+@media only screen and (max-width: 650px) {
+.botoes{
+	width: 90%;
+	float: right;
+}
+}
+@media only screen and (max-width: 550px) {
+.header-1{
+	background-color: black;
+	height: 85px;
+}
+.logo{
+	margin-left: -100px;
+	padding: 100px;
 }
