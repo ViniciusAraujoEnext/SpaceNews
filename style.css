@@ -80,9 +80,11 @@ main{
 	padding-right: 45px;
 	padding-top: 35px;
 	color: #232b94;
+	text-align: center;
 }
 .itenslogo{
 	margin-left: 18%;
+
 }
 footer{
 	color: grey;
@@ -92,7 +94,7 @@ footer{
 	height: 50px;
 	background-color: black;
 }
-.galeria{
+.foto{
 	width: 25%;
 	height: 30%;
 	float: left;
@@ -103,8 +105,9 @@ footer{
 	border-color: black;
 	text-align: center;
 	border-radius: 15px;
+	margin: 5px;
 }
-.galeria1{
+.galeria{
 	margin-left: 18%;
 }
 .news{
