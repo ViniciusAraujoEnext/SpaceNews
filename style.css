@@ -59,7 +59,6 @@ main{
 	margin-bottom: 10px;
 }
 .imagembanner{
-	width: ;
 	height: 300px;
 
 }
@@ -128,4 +127,49 @@ footer{
 	text-align: center;
 	border-color: #232b94;
 	background-image: url("https://www.designerd.com.br/wp-content/uploads/2018/07/download.png");
+}
+@media only screen and (max-width: 800px) {
+.foto{
+	width: 45%;
+	height: 30%;
+	float: left;
+	position: relative;
+	border-style: double;
+	color: #232b94;
+	border-width: 10px 10px 10px 10px;
+	border-color: black;
+	text-align: center;
+	border-radius: 15px;
+	margin: 5px;
+}
+.imagembanner{
+	height: 300px;
+	margin-top: 10px;
+}
+
+}
+@media only screen and (max-width: 750px) {
+.foto{
+	width: 50%;
+	height: 30%;
+	float: left;
+	position: relative;
+	border-style: double;
+	color: #232b94;
+	border-width: 10px 10px 10px 10px;
+	border-color: black;
+	text-align: center;
+	border-radius: 15px;
+	margin: 5px;
+}
+.imagembanner{
+	height: 300px;
+	margin-top: 0px;
+
+}
+.botoes{
+	width: 35%;
+	float: right;
+}
+
 }
