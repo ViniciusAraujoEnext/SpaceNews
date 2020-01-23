@@ -7,6 +7,7 @@
 body{
 	height: 100%
 	width: 100%;
+	background-image: url("http://amopancas.com.br/wp-content/uploads/2017/09/background-site.jpg");
 }
 main{
 	width: 100%;
@@ -101,7 +102,27 @@ footer{
 	border-width: 10px 10px 10px 10px;
 	border-color: black;
 	text-align: center;
+	border-radius: 15px;
 }
 .galeria1{
 	margin-left: 18%;
+}
+.news{
+	font-family: sans-serif;
+	text-align: center;
+	color: #232b94
+}
+.noticias{
+	font-family: sans-serif;
+	font-size: 25px;
+	color: black;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-style: solid;
+	border-radius: 15px;
+	text-align: center;
+	border-color: #232b94;
+	background-image: url("https://www.designerd.com.br/wp-content/uploads/2018/07/download.png");
 }
