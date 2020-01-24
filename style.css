@@ -62,9 +62,9 @@ main{
 	margin-top: 0px;
 	margin-bottom: 10px;
 }
-.imagembanner{
-	height: 300px;
-
+.tamanhobanner{
+	width: 100%;
+	height: 0 auto;
 }
 .welcome{
 	background-color: white;
