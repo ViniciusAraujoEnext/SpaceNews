@@ -4,6 +4,7 @@
 	margin: 0px;
 	padding: 0px;
 }
+
 body{
 	height: 100%
 	width: 100%;
@@ -12,19 +13,22 @@ body{
 main{
 	width: 100%;
 	margin: 0 auto;
-	
 }
+
 .onibuslogo{
 	width: 200px;
 	height: 130px;
 }
+
 .header-1{
 	background-color: black;
 	height: 60px;
 }
+
 .menu-principal{
 	width: 100%
 }
+
 .logo{
 	padding: 10px;
 	margin-left: 35px;
@@ -32,6 +36,7 @@ main{
 	float: left;
 	position: absolute;
 }
+
 .botoes ul li{
 	display: inline-block;
 	float: left;
@@ -41,31 +46,38 @@ main{
 	text-align: center;
 	color: white;
 }
+
 .botoes{
 	width: 65%;
 	float: right;
 }
+
 .botoes ul li a{
 	color: white;
 	text-decoration: none;
 	font-size: 30px;
 	font-family: sans-serif;
 }
+
 .botoes ul li a:hover{
 	color: #429ded;
 	border-bottom: 3px solid #429ded;
 }
+
 .botoes ul li:hover{
 	border-bottom: 3px solid #429ded;
 }
+
 .banner{
 	margin-top: 0px;
 	margin-bottom: 10px;
 }
+
 .tamanhobanner{
 	width: 100%;
 	height: 0 auto;
 }
+
 .welcome{
 	background-color: white;
 	height: 90px;
@@ -74,6 +86,7 @@ main{
 	font-family: sans-serif;
 	text-align: center;
 }
+
 .itens{
 	width: 25%;
 	height: 30%;
@@ -85,10 +98,12 @@ main{
 	color: #232b94;
 	text-align: center;
 }
+
 .itenslogo{
 	margin-left: 18%;
 
 }
+
 footer{
 	color: grey;
 	font-family: sans-serif;
@@ -97,6 +112,7 @@ footer{
 	height: 50px;
 	background-color: black;
 }
+
 .foto{
 	width: 25%;
 	height: 30%;
@@ -110,14 +126,17 @@ footer{
 	border-radius: 15px;
 	margin: 5px;
 }
+
 .galeria{
 	margin-left: 18%;
 }
+
 .news{
 	font-family: sans-serif;
 	text-align: center;
 	color: #232b94
 }
+
 .noticias{
 	font-family: sans-serif;
 	font-size: 25px;
@@ -132,6 +151,7 @@ footer{
 	border-color: #232b94;
 	background-image: url("https://www.designerd.com.br/wp-content/uploads/2018/07/download.png");
 }
+/*=====================================================================================================================*/
 @media only screen and (max-width: 900px) {
 footer {
     color: grey;
@@ -142,6 +162,7 @@ footer {
     background-color: black;
 }
 }
+/*=====================================================================================================================*/
 @media only screen and (max-width: 800px) {
 .foto{
 	width: 45%;
@@ -162,6 +183,7 @@ footer {
 }
 
 }
+/*=====================================================================================================================*/
 @media only screen and (max-width: 750px) {
 .foto{
 	width: 50%;
@@ -201,6 +223,7 @@ footer {
     background-color: black;
 }
 }
+/*=====================================================================================================================*/
 @media only screen and (max-width: 650px) {
 .botoes{
 	width: 90%;
@@ -218,6 +241,7 @@ footer {
 
 }
 }
+/*=====================================================================================================================*/
 @media only screen and (max-width: 550px) {
 .header-1{
 	background-color: black;
@@ -228,6 +252,7 @@ footer {
 	padding: 100px;
 }
 }
+/*=====================================================================================================================*/
 @media only screen and (max-width: 400px){
 .itenslogo{
 	margin-left: 18%;
@@ -236,6 +261,7 @@ footer {
 
 }
 }
+/*=====================================================================================================================*/
 @media only screen and (max-width: 360px){
 	.botoes {
     width: 75%;
