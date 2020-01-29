@@ -5,5 +5,5 @@ $('.banner').slick({
 	adptiveHeight: true,
 	slidesToShow: 1,
 	autoplay: true,
-	autoplaySpeed: 1000
+	autoplaySpeed: 2000
 });
