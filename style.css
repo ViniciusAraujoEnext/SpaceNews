@@ -37,6 +37,7 @@ main{
 	width: 15%;
 	float: left;
 	position: absolute;
+	z-index: 9;
 }
 
 .botoes ul li{
@@ -69,6 +70,59 @@ main{
 .botoes ul li:hover{
 	border-bottom: 3px solid #429ded;
 }
+button.slick-prev{
+	font-size: 0px;
+	border: none;
+	width: 25px;
+	height: 51px;
+	z-index: 9;
+	background-color: transparent;
+	position: absolute;
+	background-image: url(./img/setaesquerda.png);
+	top: 40%;
+	left: 5%
+}
+button.slick-next{
+	font-size: 0px;
+	border: none;
+	width: 25px;
+	height: 51px;
+	z-index: 9;
+	background-color: transparent;
+	position: absolute;
+	background-image: url(./img/setadireita.png);
+	top: 40%;
+	right: 5%
+}
+.slick-list{
+	width: 100% !important;
+}
+.slick-initialized{
+	overflow: hidden;
+}
+.slick-dots li button {
+	font-size: 0px;
+	border: 2px solid white;
+	width: 26%;
+	height: 26%;
+	background: transparent;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.slick-dots{
+	margin: 0 auto;
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	top: 600px;
+}
+li.slick.active button{
+	background: #00bac6;
+}
+.slick-dots li{
+	padding-left: 10px;
+	display: inline-block;
+}
 
 .banner{
 	margin-top: 0px;
@@ -77,9 +131,12 @@ main{
 
 .tamanhobanner{
 	width: 100%;
+	height: 350px;
+}
+.formatobanner{
+	width: 100%;
 	height: 0 auto;
 }
-
 .welcome{
 	background-color: white;
 	height: 90px;
@@ -179,7 +236,7 @@ footer{
 	float: left;
 	position: absolute;
 	font-family: sans-serif;
-	font-size: 30px;
+	font-size: 25px;
 	margin-left: 65px;
 }
 .planeta-img{
