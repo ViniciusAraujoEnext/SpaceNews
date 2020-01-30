@@ -8,23 +8,14 @@
 body{
 	height: 100%
 	width: 100%;
-	background-image: url("http://amopancas.com.br/wp-content/uploads/2017/09/background-site.jpg");
-}
-main{
-	width: 100%;
-	margin: 0 auto;
-}
-.fundoplanetas{
-	background-color: black;
-}
-.onibuslogo{
-	width: 200px;
-	height: 130px;
+	background-image: url("./img/fundoastronaut.png");
+	background-repeat: no-repeat;
+	background-size: 1360px;
 }
 
 .header-1{
-	background-color: black;
 	height: 60px;
+	width: 100%;
 }
 
 .menu-principal{
@@ -38,6 +29,9 @@ main{
 	float: left;
 	position: absolute;
 	z-index: 9;
+}
+a{
+	color: #fb976a;
 }
 
 .botoes ul li{
@@ -58,192 +52,34 @@ main{
 .botoes ul li a{
 	color: white;
 	text-decoration: none;
-	font-size: 30px;
-	font-family: sans-serif;
+	font-size: 25px;
+	font-family: monospace;
 }
 
 .botoes ul li a:hover{
-	color: #429ded;
-	border-bottom: 3px solid #429ded;
+	color: lightblue;
+	border-bottom: 2px solid lightblue;
 }
 
 .botoes ul li:hover{
-	border-bottom: 3px solid #429ded;
+	border-bottom: 2px solid lightblue;
 }
-button.slick-prev{
-	font-size: 0px;
-	border: none;
-	width: 25px;
-	height: 51px;
-	z-index: 9;
-	background-color: transparent;
-	position: absolute;
-	background-image: url(./img/setaesquerda.png);
-	top: 40%;
-	left: 5%
-}
-button.slick-next{
-	font-size: 0px;
-	border: none;
-	width: 25px;
-	height: 51px;
-	z-index: 9;
-	background-color: transparent;
-	position: absolute;
-	background-image: url(./img/setadireita.png);
-	top: 40%;
-	right: 5%
-}
-.slick-list{
-	width: 100% !important;
-}
-.slick-initialized{
-	overflow: hidden;
-}
-.slick-dots li button {
-	font-size: 0px;
-	border: 2px solid white;
-	width: 26%;
-	height: 26%;
-	background: transparent;
-	border-radius: 50%;
-	cursor: pointer;
-}
-.slick-dots{
-	margin: 0 auto;
-	width: 50%;
-	position: absolute;
-	left: 50%;
-	top: 600px;
-}
-li.slick.active button{
-	background: #00bac6;
-}
-.slick-dots li{
-	padding-left: 10px;
-	display: inline-block;
-}
-
-.banner{
-	margin-top: 0px;
-	margin-bottom: 10px;
-
-}
-
-.tamanhobanner{
-	width: 100%;
-	height: 350px;
-}
-.formatobanner{
-	width: 100%;
-}
-.welcome{
-	height: 90px;
-	font-size: 35px;
-	color: #232b94;
-	font-family: sans-serif;
-	text-align: center;
-	margin-bottom: 65px;
+.textocentro{
+	height: 100px;
+    font-size: 65px;
+    color: white;
+    font-family: monospace;
+    margin-bottom: 65px;
     margin-top: 60px;
+    padding-left: 120px;
+    padding-top: 130px;
 }
-
-.itens{
-	width: 25%;
-	height: 30%;
-	float: left;
-	position: relative;
-	padding-left: 15px;
-	padding-right: 45px;
-	padding-top: 35px;
-	color: #232b94;
-	text-align: center;
-}
-
-.itenslogo{
-	margin-left: 18%;
-
-}
-
-footer{
-	color: grey;
-	font-family: sans-serif;
-	font-size: 25px;
-	margin-top: 400px;
-	height: 50px;
-	background-color: black;
-}
-
-.foto{
-	width: 25%;
-	height: 30%;
-	float: left;
-	position: relative;
-	border-style: double;
-	color: #232b94;
-	border-width: 10px 10px 10px 10px;
-	border-color: black;
-	text-align: center;
-	border-radius: 15px;
-	margin: 5px;
-}
-
-.galeria{
-	margin-left: 18%;
-}
-
-.news{
-	font-family: sans-serif;
-	text-align: center;
-	color: #232b94
-}
-
-.noticias{
-	font-family: sans-serif;
-	font-size: 25px;
-	color: black;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-left: 15px;
-	margin-right: 15px;
-	border-style: solid;
-	border-radius: 15px;
-	text-align: center;
-	border-color: #232b94;
-	background-image: url("https://www.designerd.com.br/wp-content/uploads/2018/07/download.png");
-}
-.conhecendo{
-	text-align: center;
-	font-family: sans-serif;
-	font-size: 35px;
-	color: white;
-	margin-bottom: 20px;
-}
-.planetas{
-	color: white;
-	float: left;
-	background-color: black;
-	width: 100%;
-}
-
-.textoplaneta{
-	display: block;
-}
-.planeta{
-	display: block;
-	margin-bottom: 200px;
-}
-.planeta-desc{
-	display: inline-block;
-	float: left;
-	position: absolute;
-	font-family: sans-serif;
-	font-size: 25px;
-	margin-left: 65px;
-}
-.planeta-img{
-	width: 35%;
-	height: 100%;
-	display: inline-block;
+.textosubcentro{
+	font-size: 30px;
+	font-family: monospace;
+	color: #a8a9ac;
+	padding-left: 120px;
+    padding-top: 65px;
 }
 /*=====================================================================================================================*/
 @media only screen and (max-width: 1030px) {
@@ -263,19 +99,6 @@ footer {
 }
 /*=====================================================================================================================*/
 @media only screen and (max-width: 800px) {
-.foto{
-	width: 45%;
-	height: 30%;
-	float: left;
-	position: relative;
-	border-style: double;
-	color: #232b94;
-	border-width: 10px 10px 10px 10px;
-	border-color: black;
-	text-align: center;
-	border-radius: 15px;
-	margin: 5px;
-}
 .imagembanner{
 	height: 300px;
 	margin-top: 10px;
@@ -284,19 +107,6 @@ footer {
 }
 /*=====================================================================================================================*/
 @media only screen and (max-width: 750px) {
-.foto{
-	width: 50%;
-	height: 30%;
-	float: left;
-	position: relative;
-	border-style: double;
-	color: #232b94;
-	border-width: 10px 10px 10px 10px;
-	border-color: black;
-	text-align: center;
-	border-radius: 15px;
-	margin: 5px;
-}
 
 .botoes{
 	width: 75%;
@@ -304,22 +114,9 @@ footer {
 	height: 0%;
 }
 
-.onibuslogo{
+.spacedlogo{
 	width: 100px;
 	height: 75px;
-}
-.itenslogo{
-	margin-left: 18%;
-	width: 10%;
-
-}
-footer {
-    color: grey;
-    font-family: sans-serif;
-    font-size: 25px;
-    margin-top: 1070px;
-    height: 50px;
-    background-color: black;
 }
 }
 /*=====================================================================================================================*/
@@ -328,7 +125,7 @@ footer {
 	width: 90%;
 	float: right;
 }
-.onibuslogo{
+.spacedlogo{
 	width: 100px;
 	height: 75px;
 	padding: 50px;
@@ -346,7 +143,7 @@ footer {
 	background-color: black;
 	height: 190px;
 }
-.onibuslogo{
+.spacedlogo{
 	margin-left: -100px;
 	padding: 100px;
 }
