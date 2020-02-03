@@ -199,13 +199,14 @@ b {
 	border-color: #fb976a;	
 }
 .section-forth{
-
+	margin-top: 130px;
+	margin-bottom: 400px;
 }
 .section-forth-image{
 	float: right;
     display: inline-block;
     position: absolute;
-    right: 325px;
+    right: 385px;
     margin-top: 240px;
     z-index: 1;
     box-shadow: -3px 14px 109px #000;
@@ -216,103 +217,31 @@ b {
     width: 525px;
     height: 510px;
     position: absolute;
-    right: 45px;
+    right: 85px;
     box-shadow: -3px 14px 109px #000;
 }
-
-/*.galeria img{
+.section-forth-text{
+	display: inline-block;
+	width: 25%;
+	line-height: 2;
+	margin-left: 130px;
+	margin-top: 200px;
+}
+.section-forth-text2{
 	float: right;
-	margin-right: 140px;
-	box-shadow: -3px 14px 109px #000;
-}
-.divisoria{
-	height: 600px;
-}
-.fotosiss{
-	margin-left: 20px;
-}
-.fotosiss p{
-	font-size: 25px;
-	color: black;
-	font-weight: 600;
-	margin-bottom: 10px;
-	margin-left: 110px;
-}
-.fotosiss b{
 	transform: rotate(270deg);
 	color: black;
-	position: absolute;
-	font-size: 15px;
-	margin-left: 540px;
-    margin-top: 500px;
+	margin-top: 290px;
 }
-.textogravidade{
-	transform: rotate(270deg);
-	color: black;
-	font-weight: 600;
-	font-size: 15px;
-	text-align: right;
-    float: right;
-    margin-top: 720px;
-}
-.fotoiss {
-	position: absolute;
-	box-shadow: -3px 14px 109px #000;
-	width: 520px;
-	height: 510px;
-}
-.fotoiss2{
-	position: absolute;
-	box-shadow: -3px 14px 109px #000;
-	margin-left: 250px;
-    margin-top: 250px;
-}
-.fotoiss3{
-	position: absolute;
-	box-shadow: -3px 14px 109px #000;
-	margin-left: 850px;
-    margin-top: 450px;
-}
-.posiçãofotos{
-	padding-left: 70px;
-}
-.botao1 p{
+.section-forth button{
+	margin-top: 25px;
 	font-size: 20px;
-	margin-left: 200px;
-	margin-top: 150px;
+	background-color: transparent;
+    font-weight: 600;
+    border-color: grey;
+    padding: 15px;
 }
-.botao1 button{
-	font-size: 20px;
-	margin-left: 200px;
-	margin-top: 30px;
-	padding: 8px 40px;
-	border-color: grey;
-	font-weight: 600;
-	background: none;
-}
-.botao1 button:hover{
+.section-forth button:hover{
 	color: #fb976a;
 	border-color: #fb976a;
-
 }
-.divisoria2{
-	height: 400px;
-}
-.estaçao{
-	margin-left: 170px;
-}
-.estaçao img{
-	box-shadow: -3px 14px 109px #000;
-	float: left;
-}
-.estaçao p{
-	transform: rotate(270deg);
-	color: black;
-	font-weight: 600;
-	font-size: 15px;
-	text-align: right;
-    float: left;
-    margin-top: 400px;
-    margin-left: 250px;
-    position: absolute;
-}*/
