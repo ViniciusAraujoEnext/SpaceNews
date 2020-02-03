@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@charset "utf-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("./img/lua.png");
+	background-size: cover;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+	height: 94px;
+	padding: 0 10%;
+	padding-top: 10px;
+}
+.menu ul li {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin-left: 60px;
+	margin-top: 8px;
+	text-align: center;
+	color: black;
+}
+
+.menu {
+	width: 35%;
+	float: right;
+}
+
+.menu ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.menu ul li a:hover {
+	color: #fb976a;
+	border-bottom: 2px solid #fb976a;
+}
+
+.menu ul li:hover {
+	border-bottom: 2px solid #fb976a;
+}
+
