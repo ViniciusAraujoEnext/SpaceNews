@@ -47,4 +47,19 @@ header {
 .menu ul li:hover {
 	border-bottom: 2px solid #fb976a;
 }
-
+.section-primary{
+	margin-top: 150px;
+	margin-left: 50px;
+}
+.section-primary-text1 {
+	color: white;
+	width: 25%;
+	margin-top: 25px;
+}
+.section-primary button{
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-size: 25px;
+	margin-top: 15px;
+}
