@@ -98,6 +98,10 @@ b {
 	width: 50%;
 	display: inline-block;
 }
+.section-primary-slider{
+	width: 500px;
+	height: 40px;
+}
 
 .section-primary-text h1 {
 	font-size: 20px;
@@ -270,3 +274,28 @@ b {
 	color: #fb976a;
 	border-color: #fb976a;
 }
+button.slick-prev{
+	font-size: 0px;
+	border: none;
+	width: 25px;
+	height: 51px;
+	background-color: transparent;
+	background-image: url("./img/setaesquerda.png");
+	position: absolute;
+    z-index: 9;
+    top: 175px;
+    left: 25px;
+}
+button.slick-next{
+	font-size: 0px;
+	border: none;
+	width: 25px;
+	height: 51px;
+	background-color: transparent;
+	background-image: url("./img/setadireita.png");
+	position: absolute;
+    z-index: 9;
+    top: 175px;
+    right: 25px;
+}
+
