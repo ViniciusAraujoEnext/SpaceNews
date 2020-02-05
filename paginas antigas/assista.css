@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@charset "utf-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("./img/lua.png");
+	background-size: cover;
+	font-family: 'Noto Sans KR', sans-serif;
+	zoom: 1;
+}
+
+header {
+	height: 94px;
+	padding: 0 10%;
+	padding-top: 10px;
+}
+.menu ul li {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin-left: 60px;
+	margin-top: 8px;
+	text-align: center;
+	color: black;
+}
+
+.menu {
+	width: 35%;
+	float: right;
+}
+
+.menu ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.menu ul li a:hover {
+	color: #fb976a;
+	border-bottom: 2px solid #fb976a;
+}
+
+.menu ul li:hover {
+	border-bottom: 2px solid #fb976a;
+}
+.section-five{
+	margin-top: 150px;
+	margin-left: 50px;
+}
+.section-five-text1 {
+	color: white;
+	width: 25%;
+	margin-top: 25px;
+	display: flex;
+}
+.section-five button{
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-size: 25px;
+	margin-top: 15px;
+
+}
+.section-five button:hover{
+	color: #fb976a;
+	border-color: #fb976a;
+}
+.section-six{
+	margin-top: 300px;
+}
+.agenda {
+	float: right;
+	background-color: #fb976a;
+	padding: 8px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.agenda a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.agenda:hover {
+	background-color: #ff4f00;
+}
+
+.filtros {
+	padding: 0 10%;
+	background-color: white;
+	height: 60px;
+	margin-top: 150px;
+}
+
+.filtro {
+	display: inline-block;
+	background-color: white;
+	margin-left: 50px;
+	margin-top: 15px;
+}
+
+.filtro-text {
+	font-size: 14px;
+	color: #a8a9ac;
+	padding-left: 5px;
+}
+
+.filtro-option {
+	font-size: 16px;
+	font-weight: 1000;
+	border: none;
+}
