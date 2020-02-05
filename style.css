@@ -70,18 +70,31 @@ b {
 	height: 100vh;
 	min-height: 750px;
 }
-.banner{
+
+.banner {
 	background-image: url("./img/teste4.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 	min-height: 750px;
+	position: relative;
 }
-.banner-slider{
-	position: absolute;
+
+.banner-slider {
+	position: relative;
 }
+.banner-slide img{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
 .banner-text {
-	padding: 0 10%;
+	padding-top: 2%;
+    padding-left: 2%;
+	position: absolute;
+	top: 0;
+	z-index: 1;
 }
 
 .banner-text h1 {
@@ -97,18 +110,18 @@ b {
 }
 
 .agenda {
-    float: right;
-    background-color: #fb976a;
-    padding: 15px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    display: inline-block;
-    height: 100%;
-    margin-right: 130px;
+	float: right;
+	background-color: #fb976a;
+	padding: 15px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	display: inline-block;
+	height: 100%;
+	margin-right: 130px;
 }
 
 .agenda a {
@@ -117,10 +130,12 @@ b {
 	text-decoration: none;
 	font-weight: bold;
 }
+
 .agenda:hover {
 	background-color: #ff4f00;
 }
-.barra-filtros{
+
+.barra-filtros {
 	background-color: white;
 	position: fixed;
 	bottom: 0;
@@ -128,10 +143,11 @@ b {
 	height: 80px;
 	z-index: 9;
 }
+
 .filtros {
-    display: inline-block;
-    padding-bottom: 15px;
-    padding-left: 65px;
+	display: inline-block;
+	padding-bottom: 15px;
+	padding-left: 65px;
 }
 
 .filtro {
@@ -155,10 +171,11 @@ b {
 }
 
 /*=====================================================================================================================*/
-.background2{
+.background2 {
 	background-image: url("./img/themoon.png");
 	background-repeat: repeat;
 }
+
 .section-primary {
 	padding-top: 300px;
 }
@@ -178,7 +195,8 @@ b {
 	width: 50%;
 	display: inline-block;
 }
-.section-primary-slider{
+
+.section-primary-slider {
 	width: 500px;
 	height: 40px;
 }
@@ -353,7 +371,8 @@ b {
 	color: #fb976a;
 	border-color: #fb976a;
 }
-button.slick-prev{
+
+button.slick-prev {
 	font-size: 0px;
 	border: none;
 	width: 25px;
@@ -361,11 +380,12 @@ button.slick-prev{
 	background-color: transparent;
 	background-image: url("./img/setaesquerda.png");
 	position: absolute;
-    z-index: 4;
-    top: 175px;
-    left: 25px;
+	z-index: 4;
+	top: 175px;
+	left: 25px;
 }
-button.slick-next{
+
+button.slick-next {
 	font-size: 0px;
 	border: none;
 	width: 25px;
@@ -373,84 +393,112 @@ button.slick-next{
 	background-color: transparent;
 	background-image: url("./img/setadireita.png");
 	position: absolute;
-    z-index: 4;
-    top: 175px;
-    right: 25px;
+	z-index: 4;
+	top: 175px;
+	right: 25px;
 }
-.background3{
+
+.background3 {
 	background-image: url(./img/lua.png);
 	background-size: cover;
 }
-.section-five{
+
+.section-five {
 	margin-left: 50px;
 	padding-top: 200px;
 	padding-bottom: 300px;
 }
+
 .section-five-text1 {
 	color: white;
 	width: 25%;
 	margin-top: 25px;
 	display: flex;
 }
-.section-five button{
+
+.section-five button {
 	border: none;
 	background-color: transparent;
 	color: white;
 	font-size: 25px;
 	margin-top: 15px;
-
 }
-.section-five button:hover{
+
+.section-five button:hover {
 	color: #fb976a;
 	border-color: #fb976a;
 }
-.section-six{
+
+.section-six {
 	padding-bottom: 300px
 }
-.barra-vendas{
+
+.barra-vendas {
 	bottom: 0;
-    height: 65px;
-    z-index: 9;
-    background-color: white;
-    position: absolute;
-    margin-left: 150px;
+	height: 65px;
+	z-index: 9;
+	background-color: white;
+	position: absolute;
+	margin-left: 150px;
 }
-.vendas{
+
+.vendas {
 	display: inline-block;
 }
-.venda{
+
+.venda {
 	display: inline-block;
 	margin-left: 50px;
 	padding-right: 15px
 }
-.venda-text{
+
+.venda-text {
 	font-size: 14px;
 	color: #a8a9ac;
 	padding-left: 5px;
 }
-.venda-option{
+
+.venda-option {
 	font-size: 16px;
 	font-weight: 1000;
 	border: none;
 }
-.compre{
-    background-color: #fb976a;
-    padding: 3px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    display: inline-block;
-    height: 100%;
+
+.compre {
+	background-color: #fb976a;
+	padding: 3px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	display: inline-block;
+	height: 100%;
 }
+
 .compre a {
 	color: white;
 	text-align: center;
 	text-decoration: none;
 	font-weight: bold;
 }
+
 .compre:hover {
 	background-color: #ff4f00;
+}
+
+.section-img-vendas {
+	padding-top: 400px;
+}
+
+.section-img-vendas-center {
+}
+
+.section-img-vendas-center-lugares {
+	width: 33%;
+	height: 60%;
+	float: left;
+	text-align: center;
+
 }
