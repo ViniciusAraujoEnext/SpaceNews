@@ -70,8 +70,15 @@ b {
 	height: 100vh;
 	min-height: 750px;
 }
+.banner{
+	background-image: url("./img/teste4.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	min-height: 750px;
+}
 .banner-slider{
-	position: relative;
+	position: absolute;
 }
 .banner-text {
 	padding: 0 10%;
@@ -399,4 +406,51 @@ button.slick-next{
 }
 .section-six{
 	padding-bottom: 300px
+}
+.barra-vendas{
+	bottom: 0;
+    height: 65px;
+    z-index: 9;
+    background-color: white;
+    position: absolute;
+    margin-left: 150px;
+}
+.vendas{
+	display: inline-block;
+}
+.venda{
+	display: inline-block;
+	margin-left: 50px;
+	padding-right: 15px
+}
+.venda-text{
+	font-size: 14px;
+	color: #a8a9ac;
+	padding-left: 5px;
+}
+.venda-option{
+	font-size: 16px;
+	font-weight: 1000;
+	border: none;
+}
+.compre{
+    background-color: #fb976a;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+    height: 100%;
+}
+.compre a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+.compre:hover {
+	background-color: #ff4f00;
 }
