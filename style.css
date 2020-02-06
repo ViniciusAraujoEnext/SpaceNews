@@ -385,7 +385,7 @@ button.slick-prev {
 	background-image: url("./img/setaesquerda.png");
 	position: absolute;
 	z-index: 4;
-	top: 175px;
+	top: 200px;
 	left: 25px;
 }
 
@@ -398,7 +398,7 @@ button.slick-next {
 	background-image: url("./img/setadireita.png");
 	position: absolute;
 	z-index: 4;
-	top: 175px;
+	top: 200px;
 	right: 25px;
 }
 
